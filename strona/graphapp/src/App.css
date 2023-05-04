@@ -1,0 +1,122 @@
+.App {
+  scroll-behavior: smooth;
+}
+
+header{
+  /*background-color: #353334;*/
+  background-color: #231f20;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+  box-shadow: 2px 0px 15px #231f20;
+}
+
+footer{
+  width: 100%;
+  background-color: #231f20;
+  text-align: center;
+  color: #1b8f52;
+  clear: both;
+  height: 50px;
+  line-height: 50px;
+  font-size: large;
+  box-shadow: 2px 0px 15px #231f20;
+  z-index: 1;
+}
+
+.container{
+  height: 100vh;
+}
+
+.header-left{
+  width: 40%;
+  float: left;
+  padding-left: 2%;
+}
+
+.header-left img{
+  width: 120px;
+}
+
+.header-right{
+  width: 60%;
+  float: right;
+  text-align: center;
+}
+
+.header-right nav *{
+  text-decoration: none;
+  color: #1b8f52;
+  text-transform: uppercase;
+  margin: 1%;
+  padding: 35px 15px 35px 15px;
+  line-height: 100%;
+}
+
+.header-right nav *:hover{
+  background-color: #1b8f52;
+  color: white;
+}
+
+#tsparticles {
+  height: 100vh;
+  position: absolute;
+}
+
+.container-left{
+  width: 11%;
+  height: 100vh;
+  float: left;
+  background-color: #353334;
+  color: white;
+  font-size: large;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #231f20;
+}
+
+.container-right{
+  width: 11%;
+  height: 100vh;
+  float: right;
+  background-color: #353334;
+  color: white;
+  font-size: large;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #231f20;
+}
+
+.container-middle{
+  width: 75%;
+  float: left;
+  padding: 15px;
+}
+
+.container-wrapper{
+  position: relative;
+  width: 100%;
+}
+
+.container-transparent{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(35, 31, 32, 0.4);
+  position: absolute;
+}
+
+.container-main{
+  height: 100vh;
+  width: 60%;
+  background-color: rgba(35, 31, 32, 0.9);
+  margin: auto;
+  color: white;
+  box-shadow: 0px 0px 20px #231f20;
+  padding: 20px;
+}
+
+#jeden{
+  width: 45%;
+}
+
+
+
